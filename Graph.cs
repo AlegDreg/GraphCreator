@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChartCreater
+namespace Graphs
 {
     public class Graph : Actions
     {
@@ -69,7 +69,7 @@ namespace ChartCreater
         public Graph(int[] num, Color color, Color dash, Color text)
         {
             nums = num;
-            res_path = Directory.GetCurrentDirectory() + @"/chart.jpg";
+            res_path = Directory.GetCurrentDirectory() + @"\chart.jpg";
             PenColor = color;
             DashColor = dash;
             TextColor = text;

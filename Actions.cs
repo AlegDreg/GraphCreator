@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChartCreater
+namespace Graphs
 {
     public class Actions
     {

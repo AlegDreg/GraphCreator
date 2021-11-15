@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ChartCreater
+namespace Graphs
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
